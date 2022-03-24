@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsive.css">
+	<title>website</title>
+</head>
+<body>
+	<!--Header part start-->
+
+	<div class="header">
+		<nav>
+			<h1>Habibur</h1>
+			<div class="nav-menu" id="navemenus">
+				<span onclick="hideMenu()">Close</span>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Works</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Contract</a></li>
+					<li><input type="text" name="Search"> <input type="submit" name="submit" value="Search"></li>
+				</ul>
+				
+			</div>
+			<span onclick="openMenu()">Menu</span>
+			<img src="picture/Capture.png" alt="Habibur" class="profile-image">
+		</nav>
+		<div class="title-discription">
+			<h1>Welcome to My website</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nulla eligendi!<br> Dolores error molestias quos sunt a quaerat corrupti iste.</p>
+			<a href="#">Hear Me</a> &nbsp; <a href="#">About Me</a>
+		</div>
+	</div>
+
+	<!--Header part end-->
+
+
+
+	<!--about section start-->
+<div class="about-me">
+	<h1>About Me</h1>
+	<div class="row">
+		<div class="about-me-col">
+			<img src="picture/habib.png" alt="Habibur">
+		</div>
+		<div class="about-me-col">
+			<H2>Hello! I'm Habibur</H2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate placeat expedita corporis adipisci explicabo facilis repellat ad eveniet sequi doloribus quis veritatis voluptatem culpa, at cum non qui quas ipsa itaque fugiat nemo, iure perferendis! <br> <br> Saepe rem nobis Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, aperiam!</p>
+		</div>
+	</div>
+</div>
+	<!--about section end-->
+
+
+	<!--skill section start-->
+<div class="skill">
+	<h1>My Skils</h1>
+	<div class="row">
+		<div class="skill-col">
+<h2>Academic Qualification</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quidem veritatis ipsa debitis. Culpa quis voluptates rem autem sunt neque, aliquid fuga animi repellat sequi? <br> <br> Iste commodi nemo atque repellendus in dolor eaque reprehenderit eligendi est, eveniet voluptate quaerat?  Omnis quam repudiandae nisi eum iusto ipsa libero incidunt, mollitia labore.</p>
+		</div>
+	
+		<div class="skill-col">
+			<h2>Programming Skills</h2>
+			<ul>
+				<li><h3>html 95%</h3></li> <span class="bar"> <span class="html"></span></span>
+
+				<li><h3>css 80%</h3></li>  <span class="bar"> <span class="css"></span></span>
+
+				<li><h3>jQuery 50%</h3></li>  <span class="bar"> <span class="jQuery"></span></span>
+
+				<li><h3>javascript 70%</h3></li>  <span class="bar"> <span class="javascript"></span></span>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--skill section end-->
+
+
+<!--services section start-->
+<div class="my-services">
+	<div class="service">
+		<h1>My Services</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, repudiandae.</p>
+	</div>
+	<div class="row">
+		<div class="hardware">
+			<h2>hardware</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nesciunt. Ad totam nihil error porro esse, dolores nisi rem recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis tempore repudiandae enim expedita nemo maiores illo vel doloribus consectetur asperiores.
+			</p>
+		</div>
+		<div class="hardware">
+			<h2>Sofware</h2>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quae, explicabo molestias soluta alias debitis inventore aliquid recusandae magni, eius cupiditate, voluptatem reprehenderit ullam quo optio aliquam iure eveniet accusantium placeat velit consequuntur! Cupiditate atque ad harum exercitationem, ex obcaecati!</p>
+		</div>
+		<div class="hardware">
+			<h2>Programming</h2>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere expedita amet eveniet doloremque ratione recusandae, illo molestias repellat soluta magnam id quam inventore voluptatibus eaque perferendis reprehenderit veniam nesciunt ipsa in ipsam! Ex molestias nemo minus nisi unde, cumque excepturi!</p>
+		</div>
+	</div>
+</div>
+<!--services section end-->
+
+
+
+<!--footer section start-->
+<div class="footer">
+	<div class="title">
+		<h1>Md.Habibur Rahman (Habib)</h1>
+	</div>
+	<div class="paragraph">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti illum reiciendis excepturi ducimus maiores laudantium sapiente placeat nisi id ipsa voluptatem autem pariatur, corporis hic, quibusdam eius, cumque soluta dolore?</p>
+	</div>
+	<div class="icon">
+		<h1>icon</h1>
+		<h3>Copyright By Habibur@2022.Com</h3>
+		<marquee>website Created By <i> Md.Habibur Rahman ( Habib )</i></marquee>
+	</div>
+</div>
+<!--footer section end-->
+
+
+	<!--javascript start-->
+<script type="text/javascript">
+var navemenus= document.getElementById('navemenus');
+function openMenu(){
+navemenus.style.right="0";
+}
+function hideMenu(){
+navemenus.style.right="-300px";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,375 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*---header part star--*/
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(picture/images.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+}
+nav{
+  display: flex;
+  padding: 3% 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1{
+  text-transform: uppercase;
+ color: rgb(233, 182, 52);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.nav-menu{
+  flex: 1;
+  text-align: right;
+}
+.nav-menu ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+}
+.nav-menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid #ddd;
+  background-color: #262626;
+  padding: 10px;
+  border-radius: 5px;
+}
+.nav-menu ul li a:hover{
+  background-color: crimson;
+  transition: all ease-in 0.3s;
+  border-radius: 5px;
+}
+
+.profile-image{
+  width: 40%;
+  height: 55%;
+  position: absolute;
+  top: 45%;
+  left: 58%;
+ border-radius: 10px;
+}
+.title-discription{
+  width: 80%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  transform: translate(-50%, -60%);
+}
+.title-discription h1{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: aqua;
+}
+.title-discription p{
+  font-size: 16px;
+}
+.title-discription a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+.title-discription a:hover{
+  background: black;
+  color: yellow;
+  transition: all ease-in 0.5s;
+}
+nav span{
+  display: none;
+}
+input{
+  padding:8px;
+  outline: none;
+}
+/*---header part end--*/
+
+
+
+
+/*---about section start---*/
+.row{
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+.about-me{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+ background-color: grey;
+}
+.about-me h1{
+text-decoration: underline;
+position: relative;
+top: 20px;
+text-transform: uppercase;
+}
+.about-me-col img{
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 rgb(61, 90, 185);
+  position: relative;
+  top: 20px;
+}
+
+.about-me-col{
+  flex-basis: 45%;
+  margin-bottom: 4%;
+}
+
+.about-me-col h2{
+  text-align: left;
+}
+
+.about-me-col p{
+  color: rgb(31, 65, 31);
+  font-size: 16px;
+  font-weight: 300px;
+  justify-content: center;
+  text-align: left;
+  line-height: 22px;
+  padding: 12px;
+}
+/*---about section end--*/
+
+
+/*---skill section start---*/
+
+.skill-col ul li h3{
+  text-transform: uppercase;
+  color: rgb(32, 9, 15);
+}
+
+.skill-col ul li{
+  list-style: none;
+  text-align: left;
+}
+.skill{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  background-color: indianred;
+}
+.skill h1{
+  text-decoration: underline;
+  position: relative;
+  top: 20px;
+  text-transform: uppercase;
+  }
+  .skill-col{
+    width: 65%;
+  }
+  .skill-col p{
+    margin-left: 5px;
+    color: rgb(19, 10, 10);
+    font-size: 16px;
+    font-weight: 300px;
+    justify-content: center;
+    text-align: left;
+    line-height: 22px;
+    padding: 12px;
+  }
+  .skill-col h2{
+    text-align: left;
+  margin-left: 25px;
+  }
+
+  .skill-col .bar{
+      display: block;
+      height: 2px;
+      border: 2px solid rgba(0, 0, 0, 0.3);
+      border-radius: 4px;
+      overflow: hidden;
+      box-shadow: 0 0 10px green;
+  }
+  .skill-col .bar span{
+        height: 20px;
+        float: left;
+        background: rgb(20, 49, 179);
+  }
+  .html{
+    width: 95%;
+    animation: html 2s;
+    animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
+  .css{
+    width: 80%;
+    animation: css 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .jQuery{
+    width: 50%;
+    animation: jQuery 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .javascript{
+    width: 70%;
+    animation: javascript 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes html{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 95%;
+    }
+  }  
+  
+  @keyframes css{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 80%;
+    }
+  }  
+  @keyframes jQuery{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 50%;
+    }
+  }  
+  @keyframes javascript{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 70%;
+    }
+  } 
+  /*--skill section end--*/
+
+  
+/*--services section start--*/
+
+.my-services{
+  background-color: rgb(128, 88, 180);
+  padding-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.service h1{
+  text-decoration: underline;
+  text-transform: uppercase;
+  position: relative;
+  padding: 10px;
+}
+.service p{
+  position: relative;
+  top: -20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.hardware{
+  text-align: center;
+  padding: 10px;
+  margin-left: 5px;
+  background: rgb(148, 61, 109);
+  margin: 10px;
+  box-shadow: 0 8px 10px 0px black;
+}
+.hardware p{
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+}
+.hardware h2{
+  text-transform: uppercase;
+  color: #ddd;
+}
+.row{
+  position: relative;
+  top: -20px;
+}
+
+
+/*--footer section start--*/
+.footer{
+  margin-top: 20px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  height: fit-content;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.title h1{
+  position: relative;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  padding: 10px;
+}
+.paragraph{
+  max-width: 670px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: 4px;
+}
+.paragraph p{
+  font-size: 18px;
+  line-height: 22px;
+}
+.icon h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  position: relative;
+  text-transform: uppercase;
+  top: -10px;
+
+}
+.icon h3{
+  font-size: 25px;
+  position: relative;
+  top: -30px;
+  color: white;
+  text-transform: uppercase;
+}
+marquee{
+  font-family: fantasy;
+  font-size: 40px;
+  color: crimson;
+  position: relative;
+  top: -50px;
+  text-transform: uppercase;
+}
+/*--footer section end--*/
+
